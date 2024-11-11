@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
@@ -38,7 +38,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6'>
-          Crafting intuitive, user-friendly interfaces that bring ideas to life. Passionate about building seamless web experiences with modern technologies.
+            Crafting intuitive, user-friendly interfaces that bring ideas to life. Passionate about building seamless web experiences with modern technologies.
           </p>
           
           {/* Button Section */}
@@ -56,12 +56,13 @@ const HeroSection = () => {
           {/* Social Media Icons Section */}
           <div className='flex space-x-4'>
             <a href="https://www.linkedin.com/in/shreya-vedpathak-40894422b/" target="_blank" rel="noopener noreferrer" className='hover:opacity-80'>
-              <div className="w-8 h-8  rounded-full relative">
+              <div className="w-8 h-8 rounded-full relative">
                 <Image
                   src="/images/linkedin.jpg" 
                   alt="LinkedIn"
-                  layout="fill"
-                  objectFit="contain"
+                  width={30}
+                  height={30}
+                  style={{ objectFit: 'contain' }} // Use CSS objectFit instead
                 />
               </div>
             </a>
@@ -70,8 +71,9 @@ const HeroSection = () => {
                 <Image
                   src="/images/github.png" 
                   alt="GitHub"
-                  layout="fill"
-                  objectFit="contain"
+                  width={30}
+                  height={30}
+                  style={{ objectFit: 'contain' }} // Use CSS objectFit instead
                 />
               </div>
             </a>
@@ -80,8 +82,9 @@ const HeroSection = () => {
                 <Image
                   src="/images/png-transparent-twit.png" 
                   alt="Twitter"
-                  layout="fill"
-                  objectFit="contain"
+                  width={30}
+                  height={30}
+                  style={{ objectFit: 'contain' }} // Use CSS objectFit instead
                 />
               </div>
             </a>
