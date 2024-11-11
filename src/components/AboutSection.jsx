@@ -10,9 +10,13 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className='list-disc pl-2'>
+        <li>Java</li>
         <li>HTML</li>
         <li>CSS</li>
         <li>JAVASCRIPT</li>
+        <li>React</li>
+        <li>Version Control</li>
+        <li>Figma</li>
       </ul>
     ),
   },
@@ -28,13 +32,12 @@ const TAB_DATA = [
     ),
   },
   {
-    title: "Certification",
-    id: "certification",
+    title: "Experience",
+    id: "experience",
     content: (
       <ul className='list-disc pl-2'>
-        <li>Lets Upgrade 3-day HTML bootcamp</li>
-        <li>CSS</li>
-        <li>JAVASCRIPT</li>
+        <li>Android Developer Internship <p>Revolution IT Solution ,Kolhapur</p></li>
+        <li>AICTE Virtual Android Developer Internship</li>
       </ul>
     ),
   }
@@ -52,7 +55,7 @@ const AboutSection = () => {
   }
 
   return (
-    <section className='text-white'>
+    <section className='text-white  id="about"'>
       {/* Section animation: Fade in */}
       <motion.div
         initial={{ opacity: 0 }}
@@ -74,11 +77,11 @@ const AboutSection = () => {
         </motion.div>
 
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
-          <h2 className='text-4xl font-bold text-white mb-4'>
+          <h2 className='text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary-400 to-secondary-700'>
             About Me
           </h2>
           <p className='text-base lg:text-lg'>
-            👋 Hello, I'm Shreya Vedpathak, an aspiring Web Developer passionate about learning and mastering new skills in the field. Currently, I'm diving deep into React to enhance my frontend development expertise. I thrive on crafting intuitive user interfaces and leveraging the latest technologies to create seamless digital experiences. Eager to collaborate on innovative projects and contribute my skills to impactful solutions, I'm continuously expanding my knowledge base to stay ahead in this fast-paced industry. Let's connect and explore opportunities to collaborate and create remarkable digital experiences together! 🚀
+            👋 Hello, I&apos;m Shreya Vedpathak, an aspiring Web Developer passionate about learning and mastering new skills in the field. Currently, I&apos;m diving deep into React to enhance my frontend development expertise. I thrive on crafting intuitive user interfaces and leveraging the latest technologies to create seamless digital experiences. Eager to collaborate on innovative projects and contribute my skills to impactful solutions, I&apos;m continuously expanding my knowledge base to stay ahead in this fast-paced industry. Let&apos;s connect and explore opportunities to collaborate and create remarkable digital experiences together! 🚀
           </p>
 
           {/* Tab buttons with hover effects */}

@@ -8,15 +8,15 @@ import MenuOverlay from './MenuOverlay';
 const navLink = [
   {
     title: "About",
-    path: "#about",
+    path: "/about",
   },
   {
     title: "Project",
-    path: "#project",
+    path: "/project",
   },
   {
     title: "Contact",
-    path: "#contact",
+    path: "/contact",
   },
 ];
 
@@ -27,7 +27,7 @@ const Navbar = () => {
     <nav className='fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100'>
       <div className="flex flex-wrap lg:py-4 items-center justify-between mx-auto px-6 py-2">
         {/* Logo Section */}
-        <Link href={"/"} className="text-2xl md:text-5xl text-white font-semibold hover:text-gray-300">
+        <Link href={"/"} className="text-lg md:text-2xl text-white font-semibold hover:text-gray-300 ml-28">
           PORTFOLIO
         </Link>
         <div className='mobile-menu block md:hidden'>
