@@ -66,7 +66,7 @@ const HeroSection = () => {
                 />
               </div>
             </a>
-            <a href="https://github.com/shreya" target="_blank" rel="noopener noreferrer" className='hover:opacity-80'>
+            <a href="https://github.com/shreyav21" target="_blank" rel="noopener noreferrer" className='hover:opacity-80'>
               <div className="w-8 h-8 relative">
                 <Image
                   src="/images/github.png" 
